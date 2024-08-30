@@ -48,3 +48,24 @@ Adição de métodos: Você pode adicionar novos métodos a um construtor
 de objetos usando a propriedade prototype. Por exemplo:
 JavaScript
  */ 
+
+//  ------------SWITCH------- . . .
+const imprimirResultado = function (nota){
+    switch (Math.floor(nota)){
+        case 10:
+            return console.log('case 10')
+            break
+            case 9:
+                return console.log('case 9')
+                break
+                case 8:
+                    return console.log('case 8')
+                    break
+                    case 7:
+                        return console.log('case 7')
+                        break
+                        case 6:
+                            return console.log('case 6')
+    }
+}
+imprimirResultado(6)
