@@ -1,4 +1,4 @@
-/* No javascript função é quase tudo*/
+// ESTRUTURAS DE CONTROLE
 
 // Funções CONSTRUTORAS 
 
@@ -49,7 +49,7 @@ de objetos usando a propriedade prototype. Por exemplo:
 JavaScript
  */ 
 
-//  ------------SWITCH------- . . .
+//  ------------SWITCH É UMA SELEÇÃO MULTIPLA------- . . .
 const imprimirResultado = function (nota){
     switch (Math.floor(nota)){
         case 10:
@@ -66,6 +66,9 @@ const imprimirResultado = function (nota){
                         break
                         case 6:
                             return console.log('case 6')
+                            break
+                            default:  //   caso não execute nenhum bloco add( default ) 
+                                return console.log('nota inválida')
     }
 }
 imprimirResultado(6)
